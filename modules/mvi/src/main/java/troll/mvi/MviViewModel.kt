@@ -1,0 +1,1 @@
+package troll.mviimport troll.eth.base.viewbinding.ViewModelExclass MviViewModel : ViewModelEx() {    fun dispatch(action: MviViewAction) {        when (action) {            is MviViewAction.ButtonClick -> {            }        }    }}

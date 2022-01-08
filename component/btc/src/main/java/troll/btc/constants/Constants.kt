@@ -1,0 +1,1 @@
+package troll.btc.constantsconst val EMPTY: String = ""

@@ -1,0 +1,1 @@
+package troll.eth.baseimport androidx.appcompat.app.AppCompatActivity/** * 最基础的 */open class BaseActivity : AppCompatActivity() {}

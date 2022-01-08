@@ -3,7 +3,7 @@ package com.troll.trollbucket
 import android.view.LayoutInflater
 import androidx.activity.viewModels
 import com.troll.trollbucket.databinding.ActivityMainBinding
-import troll.eth.base.ActivityEx
+import troll.eth.base.viewbinding.ActivityEx
 
 
 /**
