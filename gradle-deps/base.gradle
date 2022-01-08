@@ -1,0 +1,34 @@
+ext.versions = [
+        minSdk     : 21,
+        compileSdk : 30,
+        buildTools : '30.0.3',
+
+        versionCode: 100,
+        versionName: '1.0.0',
+
+        java       : JavaVersion.VERSION_1_8,
+        jvmTarget       : '1.8'
+
+
+]
+ext.plugs = [
+        android: [
+                app: "com.android.application",
+                lib: "com.android.library",
+        ],
+        java   : "java-library",
+]
+
+ext.paths = [
+]
+
+ext.deps = [
+]
+
+/**
+ * 这些都是必要的框架，所以直接在这里声明
+ */
+//apply from: "gradle-deps/kotlin.gradle"
+//apply from: "gradle-deps/rx.gradle"
+//apply from: "gradle-deps/google.gradle"
+

@@ -1,0 +1,1 @@
+package com.troll.trollbucketimport androidx.lifecycle.MutableLiveDataclass MainRepo {    val live = MutableLiveData<String>()    fun test() {        live.value = "倒灌"    }}

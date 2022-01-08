@@ -1,0 +1,1 @@
+package com.troll.algorithm.leetCode.n1576;import java.util.Arrays;public class 替换所有的问号 {    public static void main(String[] args) {        for (int i = 0; i < 26; i++) {            char s = (char) ('a'+i);            System.out.println("args = " + s);        }    }}
