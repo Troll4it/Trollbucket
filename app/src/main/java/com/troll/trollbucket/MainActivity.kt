@@ -1,9 +1,11 @@
 package com.troll.trollbucket
 
+import android.content.Intent
 import android.view.LayoutInflater
 import androidx.activity.viewModels
 import com.troll.trollbucket.databinding.ActivityMainBinding
 import troll.eth.base.viewbinding.ActivityEx
+import troll.mvi.MviActivity
 
 
 /**
@@ -22,6 +24,13 @@ class MainActivity : ActivityEx<ActivityMainBinding>() {
     override fun getBinding(inflater: LayoutInflater): ActivityMainBinding = ActivityMainBinding.inflate(inflater)
 
     override fun flowData() {
+
+    }
+
+    override fun flowView() {
+        binding.tv.setOnClickListener {
+            startActivity(Intent(this,MviActivity::class.java))
+        }
 
     }
 

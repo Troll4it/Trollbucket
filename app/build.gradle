@@ -41,4 +41,5 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
 
     api project(":component:eth")
+    api project(":modules:mvi")
 }
