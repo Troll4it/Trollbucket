@@ -1,0 +1,1 @@
+package troll.kotlin.activityResultContractsimport troll.eth.base.viewbinding.BaseViewModelclass ResultContractsViewModel : BaseViewModel() {}

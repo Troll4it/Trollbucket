@@ -18,6 +18,7 @@
             <option value="$PROJECT_DIR$/component/eth" />
             <option value="$PROJECT_DIR$/modules" />
             <option value="$PROJECT_DIR$/modules/algorithm" />
+            <option value="$PROJECT_DIR$/modules/kotlin" />
             <option value="$PROJECT_DIR$/modules/mvi" />
           </set>
         </option>

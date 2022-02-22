@@ -16,3 +16,4 @@ include ':modules:mvi'
 // 组件
 include ':component:btc'
 include ':component:eth'
+include ':modules:kotlin'

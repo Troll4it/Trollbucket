@@ -1,0 +1,1 @@
+package troll.kotlin.operatorimport troll.btc.constants.EMPTYclass User {    var name: String = EMPTY}data class UserData(val name: String,val age:Int) class Test{    companion object {        @JvmStatic        fun main(args: Array<String>) {            val userData = UserData("你的", 1)        }    }}

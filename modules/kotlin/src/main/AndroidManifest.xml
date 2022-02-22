@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="troll.kotlin">
+
+
+    <application>
+
+        <activity android:name=".viewpager.TestViewPager2Activity" />
+        <activity android:name=".viewpager.TestViewPagerActivity" />
+        <activity android:name=".activityResultContracts.ResultContractsActivity" />
+        <activity android:name=".coroutines.CoroutinesActivity" />
+    </application>
+</manifest>

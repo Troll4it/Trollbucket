@@ -1,0 +1,1 @@
+package troll.kotlin.operatorclass InfixOperator {    companion object {        @JvmStatic        fun main(args: Array<String>) {            val s = "中缀调用" 添加 "我的"            println("中缀调用$s")        }    }}infix fun String.添加(cv: String): String {    return this.plus(cv)}

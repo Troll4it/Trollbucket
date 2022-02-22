@@ -5,7 +5,7 @@
     <application>
 
         <activity
-            android:name=".MviActivity"
+            android:name=".MviBaseActivity"
             android:screenOrientation="portrait" />
     </application>
 </manifest>
