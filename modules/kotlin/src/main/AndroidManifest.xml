@@ -8,6 +8,7 @@
         <activity android:name=".viewpager.TestViewPager2Activity" />
         <activity android:name=".viewpager.TestViewPagerActivity" />
         <activity android:name=".activityResultContracts.ResultContractsActivity" />
+        <activity android:name=".activityResultContracts.ResultContractsTwoActivity" />
         <activity android:name=".coroutines.CoroutinesActivity" />
     </application>
 </manifest>
