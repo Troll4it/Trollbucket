@@ -1,17 +1,14 @@
 plugins {
     id 'com.android.library'
-    id 'kotlin-android'
+    id 'org.jetbrains.kotlin.android'
 }
 
 android {
-    compileSdk 31
+    compileSdk 32
 
     defaultConfig {
         minSdk 21
-        targetSdk 31
-        versionCode 1
-        versionName "1.0"
-
+        targetSdk 32
         consumerProguardFiles "consumer-rules.pro"
     }
 
@@ -28,14 +25,13 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
-    buildFeatures {
-        viewBinding true
-    }
 }
 
 dependencies {
+    compileOnly project(":component:btc")
 
-    api project(":component:btc")
-    api("io.coil-kt:coil:1.4.0")
+    api('com.squareup.retrofit2:retrofit:2.9.0')
+    api('com.squareup.retrofit2:converter-gson:2.9.0')
+    api('com.squareup.okhttp3:logging-interceptor:4.7.2')
 
 }

@@ -11,9 +11,11 @@ include ':app'
 // 模块
 include 'modules:algorithm'
 include ':modules:mvi'
+include ':modules:kotlin'
 
 
 // 组件
 include ':component:btc'
 include ':component:eth'
-include ':modules:kotlin'
+include ':component:net'
+

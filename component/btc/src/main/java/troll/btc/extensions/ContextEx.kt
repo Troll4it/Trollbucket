@@ -1,0 +1,1 @@
+package troll.btc.extensionsimport android.content.Contextimport android.content.Intentfun Context.startAc(cls: Class<*>) {    this.startActivity(Intent(this, cls))}

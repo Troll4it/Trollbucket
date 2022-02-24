@@ -1,0 +1,1 @@
+package com.troll.netimport troll.btc.constants.EMPTYclass Article {    val appLink: String = EMPTY    val chapterName: String = EMPTY}
