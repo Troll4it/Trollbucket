@@ -23,5 +23,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/button_one" />
 
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/main_bus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bus"
+        app:layout_constraintTop_toBottomOf="@id/main_retrofit" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

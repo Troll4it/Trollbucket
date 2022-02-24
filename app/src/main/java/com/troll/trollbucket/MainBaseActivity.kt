@@ -1,10 +1,13 @@
 package com.troll.trollbucket
 
 import android.view.LayoutInflater
+import com.troll.bus.channel.ChannelBus
 import com.troll.trollbucket.databinding.ActivityMainBinding
+import kotlinx.coroutines.Dispatchers
 import troll.btc.extensions.onClick
 import troll.btc.extensions.startAc
 import troll.eth.base.viewbinding.BaseActivity
+import troll.kotlin.channelbus.ChannelBusActivity
 import troll.kotlin.coroutines.CoroutinesActivity
 import troll.kotlin.retrofit.RetrofitActivity
 
@@ -32,6 +35,12 @@ class MainBaseActivity : BaseActivity<ActivityMainBinding>() {
         }
         bd.mainRetrofit.onClick {
             startAc(RetrofitActivity::class.java)
+        }
+        bd.mainBus.onClick {
+            startAc(ChannelBusActivity::class.java)
+        }
+        ChannelBus.bus.receive(lifecycleOwner = this, context =  Dispatchers.Main) {
+            bd.mainBus.text = "收到数据"
         }
     }
 }

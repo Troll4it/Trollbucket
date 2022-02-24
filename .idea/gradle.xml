@@ -15,6 +15,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/component" />
             <option value="$PROJECT_DIR$/component/btc" />
+            <option value="$PROJECT_DIR$/component/bus" />
             <option value="$PROJECT_DIR$/component/eth" />
             <option value="$PROJECT_DIR$/component/net" />
             <option value="$PROJECT_DIR$/modules" />

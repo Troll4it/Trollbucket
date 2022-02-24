@@ -6,6 +6,7 @@
         <entry key="../../../../layout/custom_preview.xml" value="0.12552083333333333" />
         <entry key="../../Library/Android/sdk/platforms/android-31/data/res/drawable/btn_star.xml" value="0.24814814814814815" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.39166666666666666" />
+        <entry key="modules/kotlin/src/main/res/layout/activity_channel_bus.xml" value="0.3640625" />
         <entry key="modules/kotlin/src/main/res/layout/activity_coroutines.xml" value="0.3640625" />
         <entry key="modules/kotlin/src/main/res/layout/activity_result_contract.xml" value="0.3640625" />
         <entry key="modules/kotlin/src/main/res/layout/activity_result_contract_two.xml" value="0.3328804347826087" />

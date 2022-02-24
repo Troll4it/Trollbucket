@@ -18,4 +18,4 @@ include ':modules:kotlin'
 include ':component:btc'
 include ':component:eth'
 include ':component:net'
-
+include ':component:bus'

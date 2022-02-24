@@ -1,0 +1,1 @@
+package troll.kotlin.coroutinesimport androidx.lifecycle.viewModelScopeimport kotlinx.coroutines.flow.asFlowimport kotlinx.coroutines.launchimport troll.eth.base.viewbinding.BaseViewModelclass FlowViewModel : BaseViewModel() {    fun testFlow() {        viewModelScope.launch {            (1..10).asFlow().collect {            }        }    }}
