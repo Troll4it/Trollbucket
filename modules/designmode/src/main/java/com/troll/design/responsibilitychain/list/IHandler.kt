@@ -1,0 +1,1 @@
+package com.troll.design.responsibilitychain.listinterface IHandler {    fun handle() {        if (interceptor()) {            process()        }    }    fun process()    fun interceptor(): Boolean}

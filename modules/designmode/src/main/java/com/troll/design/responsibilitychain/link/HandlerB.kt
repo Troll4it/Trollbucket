@@ -1,0 +1,1 @@
+package com.troll.design.responsibilitychain.linkclass HandlerB : Handler() {    override fun doHandle(): Boolean {        val handle = false        println("责任链 B")        return handle    }}

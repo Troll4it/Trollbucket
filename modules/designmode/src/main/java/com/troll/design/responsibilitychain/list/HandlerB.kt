@@ -1,0 +1,1 @@
+package com.troll.design.responsibilitychain.listclass HandlerB : IHandler {    override fun process() {        println("采用数组的方式实现：B")    }    override fun interceptor(): Boolean {        return false    }}
