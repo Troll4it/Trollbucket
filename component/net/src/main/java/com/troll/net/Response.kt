@@ -1,1 +1,0 @@
-package com.troll.netimport troll.btc.constants.EMPTYdata class Response<T>(val data: Data<T>, val errorCode: Int, val errorMsg: String)class Data<T> {    var datas: T? = null    var curPage: String = EMPTY    var offset: String = EMPTY    var total: String = EMPTY}

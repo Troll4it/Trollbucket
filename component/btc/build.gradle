@@ -4,13 +4,11 @@ plugins {
 }
 
 android {
-    compileSdk 31
+    compileSdkVersion versions.compileSdk
 
     defaultConfig {
-        minSdk 21
-        targetSdk 31
-        versionCode 1
-        versionName "1.0"
+        minSdk versions.minSdk
+        targetSdk versions.targetSdk
 
         consumerProguardFiles "consumer-rules.pro"
     }
@@ -42,6 +40,7 @@ dependencies {
 
     api deps.androidx.view.fragment
     api deps.androidx.view.activity
+    api deps.androidx.view.recyclerview
 
 
     api deps.androidx.appcompat
@@ -50,5 +49,7 @@ dependencies {
     api deps.androidx.lifecycle.runtime
     api deps.androidx.lifecycle.viewmodel
     api deps.androidx.lifecycle.viewmodel
+    api deps.androidx.navigation.fragment
+    api deps.androidx.navigation.ui
     api deps.kotlin.reflect
 }

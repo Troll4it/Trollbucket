@@ -9,7 +9,7 @@ import troll.btc.extensions.startAc
 import troll.eth.base.viewbinding.BaseActivity
 import troll.kotlin.channelbus.ChannelBusActivity
 import troll.kotlin.coroutines.CoroutinesActivity
-import troll.kotlin.retrofit.RetrofitActivity
+import wan.main.WanActivity
 
 
 /**
@@ -34,12 +34,15 @@ class MainBaseActivity : BaseActivity<ActivityMainBinding>() {
             startAc(CoroutinesActivity::class.java)
         }
         bd.mainRetrofit.onClick {
-            startAc(RetrofitActivity::class.java)
         }
         bd.mainBus.onClick {
             startAc(ChannelBusActivity::class.java)
         }
-        ChannelBus.bus.receive(lifecycleOwner = this, context =  Dispatchers.Main) {
+        bd.mainWanAndroid.onClick {
+            startAc(WanActivity::class.java)
+
+        }
+        ChannelBus.bus.receive(lifecycleOwner = this, context = Dispatchers.Main) {
             bd.mainBus.text = "收到数据"
         }
     }

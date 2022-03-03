@@ -1,0 +1,1 @@
+package wan.mainimport troll.eth.base.viewbinding.BaseViewModel/** * author : TangPeng * date : 3/1/22 17:50 * description : */class WanViewModel : BaseViewModel() {}

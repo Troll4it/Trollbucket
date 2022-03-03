@@ -1,0 +1,1 @@
+package wan.common.network/** * author : TangPeng * date : 2/28/22 17:34 * description : */class BaseResp<T> {    var errorCode = -1    var errorMsg: String? = null    var data: T? = null        private set    var error: Throwable? = null    val isSuccess: Boolean        get() = errorCode == 0}

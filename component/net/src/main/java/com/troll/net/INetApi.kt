@@ -1,1 +1,0 @@
-package com.troll.netimport retrofit2.http.GETimport retrofit2.http.Pathinterface INetApi {    @GET("/article/list/{page}/json")    suspend fun getArticleList(@Path("page") page: Int): Response<MutableList<Article>>}

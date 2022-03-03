@@ -18,6 +18,21 @@
         <entry key="modules/mvi/src/main/res/layout/activity_main.xml" value="0.3640625" />
         <entry key="modules/mvi/src/main/res/layout/activity_mvi.xml" value="0.2074074074074074" />
         <entry key="modules/mvi/src/main/res/layout/layout_item_mvi.xml" value="0.3640625" />
+        <entry key="wanAndroid/common/src/main/res/layout/activity_test.xml" value="0.3640625" />
+        <entry key="wanAndroid/home/src/main/res/drawable/ic_baseline_call_split_24.xml" value="0.2075" />
+        <entry key="wanAndroid/home/src/main/res/drawable/ic_baseline_home_24.xml" value="0.2075" />
+        <entry key="wanAndroid/home/src/main/res/drawable/ic_baseline_person_outline_24.xml" value="0.2075" />
+        <entry key="wanAndroid/home/src/main/res/layout/fragment_daily_question.xml" value="0.3640625" />
+        <entry key="wanAndroid/home/src/main/res/layout/fragment_home.xml" value="0.3640625" />
+        <entry key="wanAndroid/home/src/main/res/layout/fragment_square.xml" value="0.3640625" />
+        <entry key="wanAndroid/home/src/main/res/layout/layout_item_article.xml" value="0.3640625" />
+        <entry key="wanAndroid/home/src/main/res/layout/layout_item_home_banner.xml" value="0.3640625" />
+        <entry key="wanAndroid/home/src/main/res/menu/bottom_nav_menu.xml" value="0.3640625" />
+        <entry key="wanAndroid/main/src/main/res/layout/activity_main.xml" value="0.3640625" />
+        <entry key="wanAndroid/main/src/main/res/layout/activity_wan.xml" value="0.1" />
+        <entry key="wanAndroid/main/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
+        <entry key="wanAndroid/mine/src/main/res/layout/fragment_mine.xml" value="0.28396739130434784" />
+        <entry key="wanAndroid/project/src/main/res/layout/fragment_project.xml" value="0.28396739130434784" />
       </map>
     </option>
   </component>

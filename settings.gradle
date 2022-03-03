@@ -3,6 +3,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven { url 'https://jitpack.io' }
     }
 }
 rootProject.name = "Trollbucket"
@@ -20,3 +21,10 @@ include ':component:eth'
 include ':component:net'
 include ':component:bus'
 include ':modules:designmode'
+
+//玩Android
+include ':wanAndroid:common'
+include ':wanAndroid:home'
+include ':wanAndroid:main'
+include ':wanAndroid:project'
+include ':wanAndroid:mine'

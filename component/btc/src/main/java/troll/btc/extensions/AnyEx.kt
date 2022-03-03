@@ -1,0 +1,1 @@
+package troll.btc.extensionstypealias NoArgBlock = () -> Unittypealias Block<T> = (T) -> Unitinline fun <T> T.self(action: NoArgBlock): T {    action()    return this}
