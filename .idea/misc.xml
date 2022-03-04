@@ -36,6 +36,7 @@
         <entry key="wanAndroid/main/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
         <entry key="wanAndroid/mine/src/main/res/layout/fragment_mine.xml" value="0.28396739130434784" />
         <entry key="wanAndroid/project/src/main/res/layout/fragment_project.xml" value="0.28396739130434784" />
+        <entry key="wanAndroid/project/src/main/res/layout/layout_item_project_tree.xml" value="0.3640625" />
       </map>
     </option>
   </component>

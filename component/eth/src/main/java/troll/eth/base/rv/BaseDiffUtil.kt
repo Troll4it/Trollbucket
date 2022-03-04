@@ -1,0 +1,1 @@
+package troll.eth.base.rvimport androidx.recyclerview.widget.DiffUtil/** * author : TangPeng * date : 3/4/22 15:44 * description : */abstract class BaseDiffUtil<T> : DiffUtil.ItemCallback<T>() {    override fun areItemsTheSame(oldItem: T, newItem: T): Boolean = oldItem == newItem}

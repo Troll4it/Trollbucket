@@ -1,1 +1,1 @@
-package troll.btc.extensionsimport android.content.Contextimport android.content.Intentfun Context.startAc(cls: Class<*>) {    this.startActivity(Intent(this, cls))}
+package troll.btc.extensionsimport android.content.Contextimport android.content.Intentimport android.view.LayoutInflaterfun Context.startAc(cls: Class<*>) {    this.startActivity(Intent(this, cls))}fun Context.layoutInflater(): LayoutInflater {    return LayoutInflater.from(this)}
