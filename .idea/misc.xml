@@ -28,6 +28,8 @@
         <entry key="wanAndroid/home/src/main/res/layout/layout_item_article.xml" value="0.3640625" />
         <entry key="wanAndroid/home/src/main/res/layout/layout_item_home_article.xml" value="0.3640625" />
         <entry key="wanAndroid/home/src/main/res/layout/layout_item_home_banner.xml" value="0.3640625" />
+        <entry key="wanAndroid/home/src/main/res/layout/layout_item_home_question.xml" value="0.3640625" />
+        <entry key="wanAndroid/home/src/main/res/layout/layout_item_home_square.xml" value="0.3640625" />
         <entry key="wanAndroid/home/src/main/res/menu/bottom_nav_menu.xml" value="0.3640625" />
         <entry key="wanAndroid/main/src/main/res/layout/activity_main.xml" value="0.3640625" />
         <entry key="wanAndroid/main/src/main/res/layout/activity_wan.xml" value="0.1" />
