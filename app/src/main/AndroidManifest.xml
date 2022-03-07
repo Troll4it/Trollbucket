@@ -21,33 +21,6 @@
             </intent-filter>
         </activity>
 
-        <activity-alias
-            android:name="com.troll.trollbucket.SwitchAliasActivity"
-            android:enabled="true"
-            android:exported="true"
-            android:icon="@mipmap/aaa"
-            android:label="@string/app_name"
-            android:targetActivity=".MainBaseActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-
-            </intent-filter>
-
-        </activity-alias>
-        <activity-alias
-            android:name="com.troll.trollbucket.SwitchAliasOneActivity"
-            android:enabled="false"
-            android:exported="true"
-            android:icon="@mipmap/test"
-            android:label="@string/app_name"
-            android:targetActivity=".MainBaseActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-
-        </activity-alias>
     </application>
 
 </manifest>
