@@ -29,6 +29,7 @@
             <option value="$PROJECT_DIR$/wanAndroid/main" />
             <option value="$PROJECT_DIR$/wanAndroid/mine" />
             <option value="$PROJECT_DIR$/wanAndroid/project" />
+            <option value="$PROJECT_DIR$/wanAndroid/web" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

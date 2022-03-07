@@ -1,1 +1,1 @@
-package wan.common/** * author : TangPeng * date : 3/7/22 16:02 * description : */object RoutePath {    const val PROJECT_TREE = "/project/ProjectTreeActivity"}object RouterKey {    const val ID = "id"}
+package wan.common/** * author : TangPeng * date : 3/7/22 16:02 * description : */object RoutePath {    const val PROJECT_TREE = "/project/ProjectTreeActivity"    const val WEB_ACTIVITY = "/web/WebActivity"}object RouterKey {    const val ID = "id"    const val URL = "url"}
