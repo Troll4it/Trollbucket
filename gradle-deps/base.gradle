@@ -56,9 +56,12 @@ ext.deps = [
                 "reflect": "org.jetbrains.kotlin:kotlin-reflect:1.6.10"
         ],
         other   : [
-                "coil": "io.coil-kt:coil:1.4.0"
+                "coil"    : "io.coil-kt:coil:1.4.0",
+                "multidex": "androidx.multidex:multidex:2.0.1",
+                "arouter" : "com.alibaba:arouter-api:1.5.2"
         ]
 ]
+
 
 /**
  * 这些都是必要的框架，所以直接在这里声明

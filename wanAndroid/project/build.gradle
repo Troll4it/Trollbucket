@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.library'
     id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
 }
 
 android {
@@ -9,6 +10,11 @@ android {
     defaultConfig {
         minSdk versions.minSdk
         targetSdk versions.targetSdk
+    }
+    kapt {
+        arguments {
+            arg("AROUTER_MODULE_NAME", project.getName())
+        }
     }
 
     buildTypes {
@@ -31,4 +37,5 @@ android {
 
 dependencies {
     api project(':wanAndroid:common')
+    kapt 'com.alibaba:arouter-compiler:1.5.2'
 }

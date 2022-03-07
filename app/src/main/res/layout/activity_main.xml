@@ -19,6 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Retrofit"
+        android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/button_one" />
@@ -28,6 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Bus"
+        android:textAllCaps="false"
         app:layout_constraintTop_toBottomOf="@id/main_retrofit" />
 
     <com.google.android.material.button.MaterialButton
@@ -35,6 +37,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="玩Android"
+        android:textAllCaps="false"
         app:layout_constraintTop_toBottomOf="@id/main_bus" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/main_dag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dag"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@id/main_wan_android" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

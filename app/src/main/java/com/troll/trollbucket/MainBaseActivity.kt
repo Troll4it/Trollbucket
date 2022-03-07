@@ -9,6 +9,7 @@ import troll.btc.extensions.startAc
 import troll.eth.base.viewbinding.BaseActivity
 import troll.kotlin.channelbus.ChannelBusActivity
 import troll.kotlin.coroutines.CoroutinesActivity
+import troll.kotlin.dag.DAGActivity
 import wan.main.WanActivity
 
 
@@ -41,6 +42,9 @@ class MainBaseActivity : BaseActivity<ActivityMainBinding>() {
         bd.mainWanAndroid.onClick {
             startAc(WanActivity::class.java)
 
+        }
+        bd.mainDag.onClick {
+            startAc(DAGActivity::class.java)
         }
         ChannelBus.bus.receive(lifecycleOwner = this, context = Dispatchers.Main) {
             bd.mainBus.text = "收到数据"
