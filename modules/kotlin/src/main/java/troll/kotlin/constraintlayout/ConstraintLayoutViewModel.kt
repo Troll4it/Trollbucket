@@ -1,0 +1,1 @@
+package troll.kotlin.constraintlayoutimport troll.eth.base.viewbinding.BaseViewModel/** * author : TangPeng * date : 3/9/22 09:54 * description : */class ConstraintLayoutViewModel : BaseViewModel() {}
