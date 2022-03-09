@@ -31,5 +31,6 @@ android {
 
 dependencies {
     api project(':wanAndroid:common')
+    implementation project(':wanAndroid:common')
     implementation 'io.github.youth5201314:banner:2.2.2'
 }

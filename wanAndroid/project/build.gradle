@@ -36,6 +36,6 @@ android {
 }
 
 dependencies {
-    api project(':wanAndroid:common')
+    implementation project(':wanAndroid:common')
     kapt 'com.alibaba:arouter-compiler:1.5.2'
 }
