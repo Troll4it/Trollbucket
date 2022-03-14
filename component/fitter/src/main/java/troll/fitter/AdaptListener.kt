@@ -1,0 +1,1 @@
+package troll.fitterimport android.app.Activity/** * author : TangPeng * date : 3/11/22 17:07 * description : */interface AdaptListener {    /**     * 在屏幕适配前调用     */    fun onAdaptBefore(target: Any, activity: Activity)    /**     * 在屏幕适配后调用     */    fun onAdaptAfter(target: Any, activity: Activity)}

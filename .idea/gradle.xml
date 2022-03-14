@@ -17,6 +17,7 @@
             <option value="$PROJECT_DIR$/component/btc" />
             <option value="$PROJECT_DIR$/component/bus" />
             <option value="$PROJECT_DIR$/component/eth" />
+            <option value="$PROJECT_DIR$/component/fitter" />
             <option value="$PROJECT_DIR$/component/net" />
             <option value="$PROJECT_DIR$/modules" />
             <option value="$PROJECT_DIR$/modules/algorithm" />

@@ -1,0 +1,1 @@
+package troll.fitter.adapt/** * author : TangPeng * date : 3/11/22 19:08 * description : */interface CancelAdapt {}

@@ -1,0 +1,1 @@
+package troll.fitter.strategyimport android.app.Activity/** * author : TangPeng * date : 3/11/22 14:37 * description : 屏幕适配策略 */interface AdaptStrategy {    fun applyAdapt(target: Any, activity: Activity)}

@@ -1,1 +1,1 @@
-package troll.btc.extensionstypealias NoArgBlock = () -> Unittypealias Block<T> = (T) -> Unitinline fun <T> T.self(action: NoArgBlock): T {    action()    return this}
+package troll.btc.extensionstypealias NoArgBlock = () -> Unittypealias Block<T> = (T) -> Unitinline fun <T> T.self(action: NoArgBlock): T {    action()    return this}fun <T> T.checkNull(string: String = "nullPointerException") {    if (this == null) {        throw NullPointerException(string)    }}
