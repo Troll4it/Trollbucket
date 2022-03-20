@@ -24,6 +24,7 @@
             <option value="$PROJECT_DIR$/modules/designmode" />
             <option value="$PROJECT_DIR$/modules/kotlin" />
             <option value="$PROJECT_DIR$/modules/mvi" />
+            <option value="$PROJECT_DIR$/modules/rich" />
             <option value="$PROJECT_DIR$/wanAndroid" />
             <option value="$PROJECT_DIR$/wanAndroid/common" />
             <option value="$PROJECT_DIR$/wanAndroid/home" />

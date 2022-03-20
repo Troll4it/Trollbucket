@@ -1,0 +1,1 @@
+package troll.btc.extensions/** * author : TangPeng * date : 3/19/22 23:39 * description : */fun Int.formatDoubleDigits(): String {    return if (this < 10) {        "0$this"    } else if (9 < this || this < 100) {        this.toString()    } else {        this.toString()    }}
