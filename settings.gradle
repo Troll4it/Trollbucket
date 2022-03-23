@@ -13,6 +13,8 @@ include ':app'
 include 'modules:algorithm'
 include ':modules:mvi'
 include ':modules:kotlin'
+include ':modules:rich'
+include ':modules:designmode'
 
 
 // 组件
@@ -20,7 +22,8 @@ include ':component:btc'
 include ':component:eth'
 include ':component:net'
 include ':component:bus'
-include ':modules:designmode'
+include ':component:fitter'
+
 
 //玩Android
 include ':wanAndroid:common'
@@ -29,5 +32,4 @@ include ':wanAndroid:main'
 include ':wanAndroid:project'
 include ':wanAndroid:mine'
 include ':wanAndroid:web'
-include ':component:fitter'
-include ':modules:rich'
+include ':wanAndroid:login'
