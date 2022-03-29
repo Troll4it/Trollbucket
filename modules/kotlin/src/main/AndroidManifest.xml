@@ -12,5 +12,7 @@
         <activity android:name=".coroutines.CoroutinesActivity" />
         <activity android:name=".channelbus.ChannelBusActivity" />
         <activity android:name=".dag.DAGActivity" />
+        <activity android:name=".softinput.SoftInputActivity"
+            android:windowSoftInputMode="stateUnspecified"/>
     </application>
 </manifest>

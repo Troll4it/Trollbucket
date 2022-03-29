@@ -19,10 +19,10 @@ include ':modules:designmode'
 
 // 组件
 include ':component:btc'
-include ':component:eth'
-include ':component:net'
-include ':component:bus'
-include ':component:fitter'
+include ':component:eth' // 基础库聚合类
+include ':component:net'  // 网络
+include ':component:bus' // 跨组件通信
+include ':component:fitter' // 适配
 
 
 //玩Android

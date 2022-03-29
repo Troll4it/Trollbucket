@@ -38,8 +38,8 @@ ext.deps = [
                         "recyclerview": "androidx.recyclerview:recyclerview:1.2.1"
                 ],
                 "lifecycle"       : [
-                        "runtime"  : "androidx.lifecycle:lifecycle-runtime-ktx:2.0.0",
-                        "viewmodel": "androidx.lifecycle:lifecycle-viewmodel-ktx:2..0"
+                        "runtime"  : "androidx.lifecycle:lifecycle-runtime-ktx:2.4.1",
+                        "viewmodel": "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1"
                 ],
                 "navigation"      : [
                         "fragment": "androidx.navigation:navigation-fragment-ktx:2.3.5",

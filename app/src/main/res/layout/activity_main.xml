@@ -48,4 +48,11 @@
         android:textAllCaps="false"
         app:layout_constraintTop_toBottomOf="@id/main_wan_android" />
 
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/main_soft_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="软键盘"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@id/main_wan_android" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,1 @@
+package troll.fitter/** * author : TangPeng * date : 3/25/22 10:05 * description : */class UnitsManager {    /**     * 设计图的总宽度     */    var designWidth: Float = 0f    var designHeight: Float = 0f    var supportDp: Boolean = true}

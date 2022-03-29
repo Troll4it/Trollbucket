@@ -29,6 +29,7 @@ android {
 dependencies {
 
     api project(":component:btc")
+    api project(":component:fitter")
     api deps.other.coil
     api deps.other.arouter
     api deps.other.multidex

@@ -1,0 +1,1 @@
+package troll.kotlin.constraintlayout/** * author : TangPeng * date : 3/28/22 16:10 * description : */class Test : TestPrent {    constructor(s: String) {        println("测试 Test constructor")    }    init {        println("测试 Test init")    }}fun main() {    val test = Test("Test")    println("" + test.toString())}

@@ -1,1 +1,1 @@
-package troll.eth.baseimport androidx.appcompat.app.AppCompatActivity/** * 最基础的 */open class BaseActivity : AppCompatActivity() {}
+package troll.eth.baseimport androidx.appcompat.app.AppCompatActivity/** * 最基础的 */open class BaseActivity<T> : AppCompatActivity() {}

@@ -31,4 +31,5 @@ dependencies {
     implementation project(':wanAndroid:project')
     implementation project(':wanAndroid:mine')
     implementation project(':wanAndroid:web')
+    implementation project(':wanAndroid:login')
 }
