@@ -28,6 +28,9 @@ android {
     buildFeatures {
         viewBinding true
     }
+    lintOptions {
+        checkDependencies true
+    }
 }
 
 dependencies {
@@ -37,5 +40,6 @@ dependencies {
     api project(":component:fitter")
     api project(":modules:mvi")
     api project(":modules:kotlin")
+    api project(":modules:compose")
     api project(":wanAndroid:main")
 }

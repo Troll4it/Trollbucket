@@ -1,6 +1,6 @@
 plugins {
     id 'com.android.library'
-    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-android'
 }
 
 android {
@@ -20,17 +20,23 @@ android {
 
     kotlinOptions {
         jvmTarget = '1.8'
+        useIR = true
     }
     buildFeatures {
+        compose true
         viewBinding true
     }
-    lintOptions {
-        checkDependencies true
+    composeOptions {
+        kotlinCompilerExtensionVersion versions.composeVersion
     }
 }
 
 dependencies {
-    api project(':wanAndroid:common')
-    implementation project(':wanAndroid:common')
-    implementation 'io.github.youth5201314:banner:2.2.2'
+
+    api project(":component:eth")
+    implementation(deps.compose.material)
+    implementation(deps.compose.ui.ui)
+    implementation(deps.compose.ui.tooling_preview)
+    debugImplementation(deps.compose.ui.tooling)
+
 }

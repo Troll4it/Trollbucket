@@ -37,6 +37,7 @@ dependencies {
 
     api deps.androidx.view.fragment
     api deps.androidx.view.activity
+    api deps.androidx.view.activity_compose
     api deps.androidx.view.recyclerview
 
 

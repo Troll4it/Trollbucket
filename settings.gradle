@@ -15,7 +15,7 @@ include ':modules:mvi'
 include ':modules:kotlin'
 include ':modules:rich'
 include ':modules:designmode'
-
+include ':modules:compose'
 
 // 组件
 include ':component:btc'

@@ -55,4 +55,12 @@
         android:text="软键盘"
         android:textAllCaps="false"
         app:layout_constraintTop_toBottomOf="@id/main_wan_android" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/main_compose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Compose"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@id/main_soft_input" />
 </androidx.constraintlayout.widget.ConstraintLayout>
