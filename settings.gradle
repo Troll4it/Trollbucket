@@ -16,6 +16,7 @@ include ':modules:kotlin'
 include ':modules:rich'
 include ':modules:designmode'
 include ':modules:compose'
+include ':modules:asm'  // ASM插装
 
 // 组件
 include ':component:btc'

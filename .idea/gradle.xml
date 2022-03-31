@@ -21,6 +21,7 @@
             <option value="$PROJECT_DIR$/component/net" />
             <option value="$PROJECT_DIR$/modules" />
             <option value="$PROJECT_DIR$/modules/algorithm" />
+            <option value="$PROJECT_DIR$/modules/asm" />
             <option value="$PROJECT_DIR$/modules/compose" />
             <option value="$PROJECT_DIR$/modules/designmode" />
             <option value="$PROJECT_DIR$/modules/kotlin" />
