@@ -1,0 +1,1 @@
+package troll.kotlin.sealed/** * author : TangPeng * date : 4/9/22 11:32 * description : */class SealedActivity {}sealed class Color {    object Red : Color()    object Blue : Color()}
