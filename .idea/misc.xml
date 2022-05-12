@@ -7,10 +7,13 @@
         <entry key="../../../../layout/custom_preview.xml" value="0.12552083333333333" />
         <entry key="../../Library/Android/sdk/platforms/android-31/data/res/drawable/btn_star.xml" value="0.24814814814814815" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.39166666666666666" />
+        <entry key="modules/kotlin/src/main/res/layout/activity_animation_detail.xml" value="0.2987179487179487" />
+        <entry key="modules/kotlin/src/main/res/layout/activity_animation_list.xml" value="0.2987179487179487" />
         <entry key="modules/kotlin/src/main/res/layout/activity_channel_bus.xml" value="0.3640625" />
         <entry key="modules/kotlin/src/main/res/layout/activity_constraintlayout.xml" value="0.3640625" />
         <entry key="modules/kotlin/src/main/res/layout/activity_coroutines.xml" value="0.3640625" />
         <entry key="modules/kotlin/src/main/res/layout/activity_dag.xml" value="0.35597826086956524" />
+        <entry key="modules/kotlin/src/main/res/layout/activity_jetpack.xml" value="0.2987179487179487" />
         <entry key="modules/kotlin/src/main/res/layout/activity_result_contract.xml" value="0.3640625" />
         <entry key="modules/kotlin/src/main/res/layout/activity_result_contract_two.xml" value="0.3328804347826087" />
         <entry key="modules/kotlin/src/main/res/layout/activity_retrofit.xml" value="0.3640625" />
@@ -19,6 +22,7 @@
         <entry key="modules/kotlin/src/main/res/layout/activity_view_pager.xml" value="0.32465543644716693" />
         <entry key="modules/kotlin/src/main/res/layout/activity_view_pager2.xml" value="0.39166666666666666" />
         <entry key="modules/kotlin/src/main/res/layout/fragment_test.xml" value="0.39166666666666666" />
+        <entry key="modules/kotlin/src/main/res/layout/layout_item_animation_list.xml" value="0.1425925925925926" />
         <entry key="modules/mvi/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.24814814814814815" />
         <entry key="modules/mvi/src/main/res/layout/activity_main.xml" value="0.3640625" />
         <entry key="modules/mvi/src/main/res/layout/activity_mvi.xml" value="0.2074074074074074" />
@@ -43,6 +47,7 @@
         <entry key="wanAndroid/mine/src/main/res/layout/fragment_mine.xml" value="0.28396739130434784" />
         <entry key="wanAndroid/project/src/main/res/layout/activity_project_tree.xml" value="0.3640625" />
         <entry key="wanAndroid/project/src/main/res/layout/fragment_project.xml" value="0.28396739130434784" />
+        <entry key="wanAndroid/project/src/main/res/layout/layout_item_project.xml" value="0.14166666666666666" />
         <entry key="wanAndroid/project/src/main/res/layout/layout_item_project_tree.xml" value="0.3640625" />
         <entry key="wanAndroid/web/src/main/res/layout/activity_web.xml" value="0.35597826086956524" />
       </map>

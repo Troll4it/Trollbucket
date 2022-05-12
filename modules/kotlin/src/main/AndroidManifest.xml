@@ -10,9 +10,13 @@
         <activity android:name=".activityResultContracts.ResultContractsActivity" />
         <activity android:name=".activityResultContracts.ResultContractsTwoActivity" />
         <activity android:name=".coroutines.CoroutinesActivity" />
-        <activity android:name=".channelbus.ChannelBusActivity" />
+        <activity android:name=".flow.FlowActivity" />
         <activity android:name=".dag.DAGActivity" />
-        <activity android:name=".softinput.SoftInputActivity"
-            android:windowSoftInputMode="stateUnspecified"/>
+        <activity
+            android:name=".softinput.SoftInputActivity"
+            android:windowSoftInputMode="stateUnspecified" />
+
+        <activity android:name=".animation.AnimationListActivity" />
+        <activity android:name=".animation.AnimationDetailActivity" />
     </application>
 </manifest>

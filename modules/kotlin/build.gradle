@@ -32,4 +32,6 @@ dependencies {
     implementation project(':component:eth')
     implementation project(':component:net')
     implementation project(':component:bus')
+    api 'com.github.YvesCheung:RollingText:1.2.0'
+    api 'com.github.AndroidMsky:RandomTextView:v1.3'
 }

@@ -1,0 +1,1 @@
+package troll.kotlin.jetpackimport troll.eth.base.viewbinding.BaseViewModel/** * author : TangPeng * date : 4/12/22 15:13 * description : */class JetpackViewModel : BaseViewModel() {}

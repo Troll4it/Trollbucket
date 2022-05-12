@@ -15,8 +15,14 @@ include ':modules:mvi'
 include ':modules:kotlin'
 include ':modules:rich'
 include ':modules:designmode'
-include ':modules:compose'
-include ':modules:asm'  // ASM插装
+//include ':modules:compose'
+include ':modules:asm'
+
+
+// module下的apt技术
+//include ':module:apt:apple-anotation'
+//include ':module:apt:apple-api'
+//include ':module:apt:apple-process'
 
 // 组件
 include ':component:btc'
@@ -34,3 +40,4 @@ include ':wanAndroid:project'
 include ':wanAndroid:mine'
 include ':wanAndroid:web'
 include ':wanAndroid:login'
+

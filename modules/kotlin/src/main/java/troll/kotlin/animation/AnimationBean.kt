@@ -1,0 +1,1 @@
+package troll.kotlin.animation/** * author : TangPeng * date : 4/24/22 14:51 * description : */data class AnimationBean(val title: String, val type: AnimationType)sealed class AnimationType() {    data class Translation(val type:Int):AnimationType()}

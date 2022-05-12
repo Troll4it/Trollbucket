@@ -1,0 +1,1 @@
+package com.troll.algorithm.leetCode.双指针法.n977;/** * author : TangPeng * date : 4/26/22 08:59 * description : * 给你一个按 非递减顺序 排序的整数数组 nums，返回 每个数字的平方 组成的新数组，要求也按 非递减顺序 排序 * <p> * 解题思路：这里面是有负数的，平方后，排序不是在前面就是在后面 */public class 有序数组的平方 {    public int[] sortedSquares(int[] nums) {//        if (nums == null || nums.length == 0)        return new int[]{};    }}

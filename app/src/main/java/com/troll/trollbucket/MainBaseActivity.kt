@@ -6,9 +6,9 @@ import com.troll.trollbucket.databinding.ActivityMainBinding
 import kotlinx.coroutines.Dispatchers
 import troll.btc.extensions.onClick
 import troll.btc.extensions.startAc
-import troll.compose.ComposeActivity
 import troll.eth.base.viewbinding.BaseActivity
-import troll.kotlin.channelbus.ChannelBusActivity
+import troll.kotlin.animation.AnimationDetailActivity
+import troll.kotlin.flow.FlowActivity
 import troll.kotlin.coroutines.CoroutinesActivity
 import troll.kotlin.dag.DAGActivity
 import troll.kotlin.softinput.SoftInputActivity
@@ -39,7 +39,7 @@ class MainBaseActivity : BaseActivity<ActivityMainBinding>() {
         bd.mainRetrofit.onClick {
         }
         bd.mainBus.onClick {
-            startAc(ChannelBusActivity::class.java)
+            startAc(FlowActivity::class.java)
         }
         bd.mainWanAndroid.onClick {
             startAc(WanActivity::class.java)
@@ -52,7 +52,10 @@ class MainBaseActivity : BaseActivity<ActivityMainBinding>() {
             startAc(SoftInputActivity::class.java)
         }
         bd.mainCompose.onClick {
-            startAc(ComposeActivity::class.java)
+//            startAc(ComposeActivity::class.java)
+        }
+        bd.mainAnimation.onClick {
+            startAc(AnimationDetailActivity::class.java)
         }
         ChannelBus.bus.receive(lifecycleOwner = this, context = Dispatchers.Main) {
             bd.mainBus.text = "收到数据"
