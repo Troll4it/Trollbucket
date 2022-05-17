@@ -72,4 +72,12 @@
         android:text="数字动画"
         android:textAllCaps="false"
         app:layout_constraintTop_toBottomOf="@id/main_compose" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/main_short_cut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="快捷方式"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@id/main_compose" />
 </androidx.constraintlayout.widget.ConstraintLayout>

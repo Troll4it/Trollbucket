@@ -11,6 +11,7 @@ import troll.kotlin.animation.AnimationDetailActivity
 import troll.kotlin.flow.FlowActivity
 import troll.kotlin.coroutines.CoroutinesActivity
 import troll.kotlin.dag.DAGActivity
+import troll.kotlin.shortCut.ShortCutActivity
 import troll.kotlin.softinput.SoftInputActivity
 import wan.main.WanActivity
 
@@ -56,6 +57,9 @@ class MainBaseActivity : BaseActivity<ActivityMainBinding>() {
         }
         bd.mainAnimation.onClick {
             startAc(AnimationDetailActivity::class.java)
+        }
+        bd.mainShortCut.onClick {
+            startAc(ShortCutActivity::class.java)
         }
         ChannelBus.bus.receive(lifecycleOwner = this, context = Dispatchers.Main) {
             bd.mainBus.text = "收到数据"
