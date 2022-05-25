@@ -33,6 +33,7 @@ android {
     lint {
         checkDependencies true
     }
+    namespace 'wan.project'
 }
 
 dependencies {

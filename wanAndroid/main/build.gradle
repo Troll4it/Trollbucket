@@ -26,6 +26,7 @@ android {
     lint {
         checkDependencies true
     }
+    namespace 'wan.main'
 }
 
 dependencies {

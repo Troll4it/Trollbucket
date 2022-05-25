@@ -2,6 +2,7 @@ package troll.btc.extensions
 
 import android.annotation.SuppressLint
 import androidx.lifecycle.LifecycleOwner
+import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Observer
 
@@ -70,3 +71,8 @@ fun <T> MutableLiveData<T>.refresh() {
 }
 
 fun <T> live(block: () -> T): Live<T> = Live(block())
+
+
+fun <T> MutableLiveData<T>.asLiveData(): LiveData<T> {
+    return this
+}

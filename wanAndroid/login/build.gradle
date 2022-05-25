@@ -33,6 +33,7 @@ android {
     lint {
         checkDependencies true
     }
+    namespace 'com.troll.login'
 }
 
 dependencies {

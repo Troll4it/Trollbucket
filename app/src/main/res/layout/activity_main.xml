@@ -1,83 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainBaseActivity">
+    tools:context=".MainActivity">
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/button_one"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="协程"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/main_retrofit"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/main_rv"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Retrofit"
-        android:textAllCaps="false"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/button_one" />
+        android:layout_height="match_parent" />
+    <!--    <com.google.android.material.button.MaterialButton-->
+    <!--        android:id="@+id/button_one"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="协程"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent" />-->
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/main_bus"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Bus"
-        android:textAllCaps="false"
-        app:layout_constraintTop_toBottomOf="@id/main_retrofit" />
+    <!--    <com.google.android.material.button.MaterialButton-->
+    <!--        android:id="@+id/main_retrofit"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Retrofit"-->
+    <!--        android:textAllCaps="false"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/button_one" />-->
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/main_wan_android"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="玩Android"
-        android:textAllCaps="false"
-        app:layout_constraintTop_toBottomOf="@id/main_bus" />
+    <!--    <com.google.android.material.button.MaterialButton-->
+    <!--        android:id="@+id/main_bus"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Bus"-->
+    <!--        android:textAllCaps="false"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/main_retrofit" />-->
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/main_dag"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Dag"
-        android:textAllCaps="false"
-        app:layout_constraintTop_toBottomOf="@id/main_wan_android" />
+    <!--    <com.google.android.material.button.MaterialButton-->
+    <!--        android:id="@+id/main_wan_android"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="玩Android"-->
+    <!--        android:textAllCaps="false"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/main_bus" />-->
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/main_soft_input"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="按钮动画"
-        android:textAllCaps="false"
-        app:layout_constraintTop_toBottomOf="@id/main_wan_android" />
+    <!--    <com.google.android.material.button.MaterialButton-->
+    <!--        android:id="@+id/main_dag"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Dag"-->
+    <!--        android:textAllCaps="false"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/main_wan_android" />-->
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/main_compose"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Compose"
-        android:textAllCaps="false"
-        android:visibility="gone"
-        app:layout_constraintTop_toBottomOf="@id/main_soft_input" />
+    <!--    <com.google.android.material.button.MaterialButton-->
+    <!--        android:id="@+id/main_soft_input"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="按钮动画"-->
+    <!--        android:textAllCaps="false"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/main_wan_android" />-->
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/main_animation"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="数字动画"
-        android:textAllCaps="false"
-        app:layout_constraintTop_toBottomOf="@id/main_compose" />
+    <!--    <com.google.android.material.button.MaterialButton-->
+    <!--        android:id="@+id/main_compose"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Compose"-->
+    <!--        android:textAllCaps="false"-->
+    <!--        android:visibility="gone"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/main_soft_input" />-->
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/main_short_cut"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="快捷方式"
-        android:textAllCaps="false"
-        app:layout_constraintTop_toBottomOf="@id/main_compose" />
+    <!--    <com.google.android.material.button.MaterialButton-->
+    <!--        android:id="@+id/main_animation"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="数字动画"-->
+    <!--        android:textAllCaps="false"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/main_compose" />-->
+
+    <!--    <com.google.android.material.button.MaterialButton-->
+    <!--        android:id="@+id/main_short_cut"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="快捷方式"-->
+    <!--        android:textAllCaps="false"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/main_compose" />-->
+
+    <!--    <com.google.android.material.button.MaterialButton-->
+    <!--        android:id="@+id/main_dialog"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Dialog"-->
+    <!--        android:textAllCaps="false"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/main_short_cut" />-->
 </androidx.constraintlayout.widget.ConstraintLayout>

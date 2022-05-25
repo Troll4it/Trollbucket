@@ -24,6 +24,7 @@ android {
     lint {
         checkDependencies true
     }
+    namespace 'com.troll.design'
 }
 
 dependencies {

@@ -26,6 +26,7 @@ android {
     buildFeatures {
         viewBinding true
     }
+    namespace 'troll.btc'
 }
 
 dependencies {
@@ -50,4 +51,5 @@ dependencies {
     api deps.androidx.navigation.fragment
     api deps.androidx.navigation.ui
     api deps.kotlin.reflect
+    api 'com.blankj:utilcodex:1.31.0'
 }

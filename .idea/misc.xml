@@ -7,6 +7,7 @@
         <entry key="../../../../layout/custom_preview.xml" value="0.12552083333333333" />
         <entry key="../../Library/Android/sdk/platforms/android-31/data/res/drawable/btn_star.xml" value="0.24814814814814815" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.26004728132387706" />
+        <entry key="app/src/main/res/layout/layout_item_main.xml" value="0.30811965811965814" />
         <entry key="modules/kotlin/src/main/res/layout/activity_animation_detail.xml" value="0.2987179487179487" />
         <entry key="modules/kotlin/src/main/res/layout/activity_animation_list.xml" value="0.2987179487179487" />
         <entry key="modules/kotlin/src/main/res/layout/activity_channel_bus.xml" value="0.3640625" />
@@ -24,6 +25,7 @@
         <entry key="modules/kotlin/src/main/res/layout/activity_soft_input.xml" value="0.2987179487179487" />
         <entry key="modules/kotlin/src/main/res/layout/activity_view_pager.xml" value="0.32465543644716693" />
         <entry key="modules/kotlin/src/main/res/layout/activity_view_pager2.xml" value="0.39166666666666666" />
+        <entry key="modules/kotlin/src/main/res/layout/dialog_full.xml" value="0.3172995780590717" />
         <entry key="modules/kotlin/src/main/res/layout/fragment_test.xml" value="0.39166666666666666" />
         <entry key="modules/kotlin/src/main/res/layout/layout_item_animation_list.xml" value="0.1425925925925926" />
         <entry key="modules/mvi/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.24814814814814815" />
