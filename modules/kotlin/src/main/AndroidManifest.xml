@@ -19,5 +19,7 @@
         <activity android:name=".animation.AnimationDetailActivity" />
         <activity android:name=".shortCut.ShortCutActivity" />
         <activity android:name=".dialog.DialogActivity" />
+        <activity android:name=".TransparentActivity"
+            android:theme="@style/ActivityTranslucent"/>
     </application>
 </manifest>
