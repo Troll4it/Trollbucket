@@ -56,7 +56,8 @@ ext.deps = [
                 "material": "com.google.android.material:material:1.4.0"
         ],
         kotlin  : [
-                "reflect": "org.jetbrains.kotlin:kotlin-reflect:1.6.10"
+                "reflect": "org.jetbrains.kotlin:kotlin-reflect:1.6.10",
+                "stdlib" : "org.jetbrains.kotlin:kotlin-stdlib"
         ],
         other   : [
                 "coil"    : "io.coil-kt:coil:1.4.0",
