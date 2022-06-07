@@ -1,0 +1,1 @@
+package troll.asm/** * author : TangPeng * date : 6/6/22 20:23 * description : */object TimeLog {    fun beforeMethod(methodName: String) {        println("方法 ：$methodName 开始运行")    }    fun afterMethod(methodName: String) {        println("方法 ：$methodName 运行结束")    }}

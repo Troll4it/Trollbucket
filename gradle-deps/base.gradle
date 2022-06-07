@@ -71,6 +71,10 @@ ext.deps = [
                         "tooling"        : "androidx.compose.ui:ui-tooling:1.1.1",
                         "tooling_preview": "androidx.compose.ui:ui-tooling-preview:1.1.1"
                 ]
+        ],
+        asm     : [
+                "asm"    : "org.ow2.asm:asm:9.3",
+                "commons": "org.ow2.asm:asm-commons:9.3"
         ]
 ]
 

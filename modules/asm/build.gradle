@@ -31,7 +31,17 @@ android {
 }
 
 dependencies {
+    implementation gradleApi()
+    implementation localGroovy()
 
     api project(":component:eth")
+    compileOnly("commons-io:commons-io:2.6")
+    compileOnly("commons-codec:commons-codec:1.15")
+    compileOnly("org.ow2.asm:asm-commons:9.2")
+    implementation("com.android.tools.build:gradle:7.2.0")
+    api("commons-io:commons-io:2.6")
+    api("commons-codec:commons-codec:1.15")
+    api deps.asm.asm
+    api deps.asm.commons
 
 }
