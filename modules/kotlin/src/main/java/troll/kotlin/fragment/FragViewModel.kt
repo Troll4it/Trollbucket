@@ -1,0 +1,1 @@
+package troll.kotlin.fragmentimport troll.eth.base.viewbinding.BaseViewModel/** * author : TangPeng * date : 6/19/22 16:49 * description : */class FragViewModel : BaseViewModel() {    companion object {        var type: String = "11111"    }}

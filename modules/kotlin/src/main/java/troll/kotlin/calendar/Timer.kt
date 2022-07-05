@@ -1,0 +1,1 @@
+package troll.kotlin.calendar/** * author : TangPeng * date : 6/27/22 20:32 * description : */interface Timer {    fun delay(long: Long, block: () -> Long)}class Timer1 :Timer{    override fun delay(long: Long, block: () -> Long) {    }}

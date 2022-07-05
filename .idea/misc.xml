@@ -10,13 +10,17 @@
         <entry key="app/src/main/res/layout/layout_item_main.xml" value="0.30811965811965814" />
         <entry key="modules/kotlin/src/main/res/layout/activity_animation_detail.xml" value="0.2987179487179487" />
         <entry key="modules/kotlin/src/main/res/layout/activity_animation_list.xml" value="0.2987179487179487" />
+        <entry key="modules/kotlin/src/main/res/layout/activity_calendar.xml" value="0.2760683760683761" />
         <entry key="modules/kotlin/src/main/res/layout/activity_channel_bus.xml" value="0.3640625" />
         <entry key="modules/kotlin/src/main/res/layout/activity_constraintlayout.xml" value="0.3640625" />
         <entry key="modules/kotlin/src/main/res/layout/activity_coroutines.xml" value="0.3640625" />
         <entry key="modules/kotlin/src/main/res/layout/activity_dag.xml" value="0.35597826086956524" />
         <entry key="modules/kotlin/src/main/res/layout/activity_dialog.xml" value="0.30811965811965814" />
         <entry key="modules/kotlin/src/main/res/layout/activity_flow.xml" value="0.308974358974359" />
+        <entry key="modules/kotlin/src/main/res/layout/activity_fragment.xml" value="0.29786324786324786" />
         <entry key="modules/kotlin/src/main/res/layout/activity_jetpack.xml" value="0.2987179487179487" />
+        <entry key="modules/kotlin/src/main/res/layout/activity_live_data.xml" value="0.1094017094017094" />
+        <entry key="modules/kotlin/src/main/res/layout/activity_livedata.xml" value="0.2987179487179487" />
         <entry key="modules/kotlin/src/main/res/layout/activity_reflect.xml" value="0.30811965811965814" />
         <entry key="modules/kotlin/src/main/res/layout/activity_result_contract.xml" value="0.3640625" />
         <entry key="modules/kotlin/src/main/res/layout/activity_result_contract_two.xml" value="0.3328804347826087" />
@@ -28,6 +32,7 @@
         <entry key="modules/kotlin/src/main/res/layout/activity_view_pager.xml" value="0.32465543644716693" />
         <entry key="modules/kotlin/src/main/res/layout/activity_view_pager2.xml" value="0.39166666666666666" />
         <entry key="modules/kotlin/src/main/res/layout/dialog_full.xml" value="0.3172995780590717" />
+        <entry key="modules/kotlin/src/main/res/layout/fragment_apple.xml" value="0.29786324786324786" />
         <entry key="modules/kotlin/src/main/res/layout/fragment_test.xml" value="0.39166666666666666" />
         <entry key="modules/kotlin/src/main/res/layout/layout_item_animation_list.xml" value="0.1425925925925926" />
         <entry key="modules/mvi/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.24814814814814815" />
