@@ -1,0 +1,1 @@
+package troll.kotlin.test;/** * author : TangPeng * date : 8/1/22 15:53 * description : */public class VolatileDemo {    private static volatile long age = 0;    private static class LoopVolatile implements Runnable {        @Override        public void run() {            long val = 0;            while ()        }    }}
