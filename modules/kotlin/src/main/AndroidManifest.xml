@@ -25,6 +25,7 @@
         <activity android:name=".fragment.FragmentActivity" />
         <activity android:name=".notification.NotificationActivity" />
         <activity android:name=".service.ServiceActivity" />
+        <activity android:name=".kotlin.KotlinDemoActivity" />
 
         <service
             android:name=".service.WidgetService"

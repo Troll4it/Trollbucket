@@ -2,7 +2,7 @@ package com.troll.trollbucket
 
 import android.view.LayoutInflater
 import androidx.activity.viewModels
-import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.GridLayoutManager
 import com.troll.trollbucket.databinding.ActivityMainBinding
 import troll.btc.extensions.startAc
 import troll.eth.base.viewbinding.BaseActivity
@@ -41,7 +41,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
     }
 
     override fun flowView() {
-        bd.mainRv.layoutManager = LinearLayoutManager(this)
+        bd.mainRv.layoutManager = GridLayoutManager(this, 2)
         bd.mainRv.adapter = adapter
     }
 }
