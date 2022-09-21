@@ -1,0 +1,1 @@
+package troll.eth.base.viewbinding.dialog/** * author : TangPeng * date : 8/12/22 14:12 * description : */sealed class DialogLocal {    object TOP : DialogLocal()    object CENTER : DialogLocal()    object BOTTOM : DialogLocal()}

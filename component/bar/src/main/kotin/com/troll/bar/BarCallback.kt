@@ -1,0 +1,1 @@
+package com.troll.bar/** * author : TangPeng * date : 8/8/22 17:01 * description : */interface BarCallback : Runnable {}

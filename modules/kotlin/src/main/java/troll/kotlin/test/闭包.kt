@@ -1,0 +1,1 @@
+package troll.kotlin.test/** * author : TangPeng * date : 8/4/22 18:11 * description : */fun returnFun(): () -> Unit {    var count = 0    return {        println()    }}fun main() {    var a = returnFun()    var b = returnFun()}

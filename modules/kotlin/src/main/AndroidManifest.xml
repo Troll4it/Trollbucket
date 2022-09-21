@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
-
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <application>
 
         <activity android:name=".viewpager.TestViewPager2Activity" />
@@ -22,6 +22,12 @@
         <activity android:name=".TransparentActivity" />
         <activity android:name=".reflect.ReflectActivity" />
         <activity android:name=".jetpack.LiveDataActivity" />
-        <activity android:name=".fragment.FragmentActivity"/>
+        <activity android:name=".fragment.FragmentActivity" />
+        <activity android:name=".notification.NotificationActivity" />
+        <activity android:name=".service.ServiceActivity" />
+
+        <service
+            android:name=".service.WidgetService"
+            android:enabled="true" />
     </application>
 </manifest>

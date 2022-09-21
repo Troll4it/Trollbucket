@@ -22,17 +22,20 @@
         <entry key="modules/kotlin/src/main/res/layout/activity_jetpack.xml" value="0.2987179487179487" />
         <entry key="modules/kotlin/src/main/res/layout/activity_live_data.xml" value="0.1094017094017094" />
         <entry key="modules/kotlin/src/main/res/layout/activity_livedata.xml" value="0.2987179487179487" />
+        <entry key="modules/kotlin/src/main/res/layout/activity_notification.xml" value="0.2949367088607595" />
         <entry key="modules/kotlin/src/main/res/layout/activity_reflect.xml" value="0.30811965811965814" />
         <entry key="modules/kotlin/src/main/res/layout/activity_result_contract.xml" value="0.3640625" />
         <entry key="modules/kotlin/src/main/res/layout/activity_result_contract_two.xml" value="0.3328804347826087" />
         <entry key="modules/kotlin/src/main/res/layout/activity_retrofit.xml" value="0.3640625" />
         <entry key="modules/kotlin/src/main/res/layout/activity_screen.xml" value="0.32659912109375" />
+        <entry key="modules/kotlin/src/main/res/layout/activity_service.xml" value="0.2987179487179487" />
         <entry key="modules/kotlin/src/main/res/layout/activity_short_cut.xml" value="0.22" />
         <entry key="modules/kotlin/src/main/res/layout/activity_soft_input.xml" value="0.2987179487179487" />
         <entry key="modules/kotlin/src/main/res/layout/activity_transparent.xml" value="0.30811965811965814" />
         <entry key="modules/kotlin/src/main/res/layout/activity_view_pager.xml" value="0.32465543644716693" />
         <entry key="modules/kotlin/src/main/res/layout/activity_view_pager2.xml" value="0.39166666666666666" />
         <entry key="modules/kotlin/src/main/res/layout/dialog_full.xml" value="0.3172995780590717" />
+        <entry key="modules/kotlin/src/main/res/layout/dialog_test.xml" value="0.29786324786324786" />
         <entry key="modules/kotlin/src/main/res/layout/fragment_apple.xml" value="0.29786324786324786" />
         <entry key="modules/kotlin/src/main/res/layout/fragment_test.xml" value="0.39166666666666666" />
         <entry key="modules/kotlin/src/main/res/layout/layout_item_animation_list.xml" value="0.1425925925925926" />
