@@ -26,7 +26,8 @@
         <activity android:name=".notification.NotificationActivity" />
         <activity android:name=".service.ServiceActivity" />
         <activity android:name=".kotlin.KotlinDemoActivity" />
-        <activity android:name=".button.ButtonActivity"/>
+        <activity android:name=".button.ButtonActivity" />
+        <activity android:name=".timer.TimerActivity" />
 
         <service
             android:name=".service.WidgetService"

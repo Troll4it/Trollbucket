@@ -10,5 +10,8 @@ public class TreeNode {
         this.right = right;
         this.val = value;
     }
+    public TreeNode( int value){
+        this.val = value;
 
+    }
 }
