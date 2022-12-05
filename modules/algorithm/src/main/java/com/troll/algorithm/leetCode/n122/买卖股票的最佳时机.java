@@ -1,0 +1,1 @@
+package com.troll.algorithm.leetCode.n122;/** * author : TangPeng * date : 11/26/22 20:40 * description : */public class 买卖股票的最佳时机 {    public int maxProfit(int[] prices) {        int result = 0;        for (int i = 0; i < prices.length; i++) {            result += Math.max(prices[i] - prices[i - 1], 0);        }        return result;    }}
