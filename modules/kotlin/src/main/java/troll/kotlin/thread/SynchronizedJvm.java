@@ -1,0 +1,1 @@
+package troll.kotlin.thread;/** * author : TangPeng * date : 12/17/22 21:08 * description : */public class SynchronizedJvm {    Object object = new Object();    public void method1() {        synchronized (object) {        }        method2();    }    private static void method2() {    }}

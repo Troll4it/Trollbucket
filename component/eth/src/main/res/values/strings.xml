@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="eth_warning">警告</string>
+    <string name="eth_sure">确认</string>
+    <string name="eth_cancel">取消</string>
+</resources>

@@ -1,5 +1,5 @@
 ext.versions = [
-        minSdk        : 21,
+        minSdk        : 23,
         compileSdk    : 32,
         targetSdk     : 28,
         buildTools    : '30.0.3',
@@ -62,7 +62,8 @@ ext.deps = [
         other   : [
                 "coil"    : "io.coil-kt:coil:1.4.0",
                 "multidex": "androidx.multidex:multidex:2.0.1",
-                "arouter" : "com.alibaba:arouter-api:1.5.2"
+                "arouter" : "com.alibaba:arouter-api:1.5.2",
+                "glide"   : "com.github.bumptech.glide:glide:4.11.0"
         ],
         compose : [
                 "material": "androidx.compose.material:material:1.1.1",

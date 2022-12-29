@@ -34,5 +34,8 @@ dependencies {
     api deps.other.coil
     api deps.other.arouter
     api deps.other.multidex
+    api (deps.other.glide) {
+        exclude group: "com.android.support"
+    }
 
 }
