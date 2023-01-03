@@ -1,0 +1,1 @@
+package troll.eth.ui.web.bridgeimport android.widget.Toastimport com.google.gson.JsonObject/** * author : TangPeng * date : 12/29/22 16:56 * description : */class ToastCommand : IBridgeCommand {    override fun exec(params: JsonObject?) {        if (params != null && params["message"] != null) {        }    }}

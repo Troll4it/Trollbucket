@@ -2,11 +2,11 @@
 apply from: "deps.gradle"
 buildscript {
     repositories {
-        google()
         mavenCentral()
         gradlePluginPortal()
-        maven { url 'https://jitpack.io' }
         maven { url "https://s01.oss.sonatype.org/content/groups/public" }
+        maven { url 'https://jitpack.io' }
+        google()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:7.2.1'

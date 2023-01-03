@@ -1,0 +1,1 @@
+package troll.eth.ui.web.bridgeimport com.google.gson.JsonObjectimport com.google.gson.annotations.SerializedName/** * author : TangPeng * date : 12/29/22 16:44 * description : */data class JsBridgeMessage(    @SerializedName("command")    val command: String?, // 命令    @SerializedName("params")    val params: JsonObject?, // 参数)

@@ -1,0 +1,1 @@
+package troll.eth.ui.web.bridgeimport com.google.gson.JsonObject/** * author : TangPeng * date : 12/29/22 16:55 * description : */interface IBridgeCommand {    fun exec(params: JsonObject?)}

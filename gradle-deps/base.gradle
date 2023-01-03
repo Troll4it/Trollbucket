@@ -63,7 +63,8 @@ ext.deps = [
                 "coil"    : "io.coil-kt:coil:1.4.0",
                 "multidex": "androidx.multidex:multidex:2.0.1",
                 "arouter" : "com.alibaba:arouter-api:1.5.2",
-                "glide"   : "com.github.bumptech.glide:glide:4.11.0"
+                "glide"   : "com.github.bumptech.glide:glide:4.11.0",
+                "gson"    : "com.google.code.gson:gson:2.10"
         ],
         compose : [
                 "material": "androidx.compose.material:material:1.1.1",
