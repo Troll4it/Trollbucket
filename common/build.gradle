@@ -1,18 +1,14 @@
 plugins {
-    id 'com.android.application'
-    id 'kotlin-android'
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
 }
 
 android {
     compileSdkVersion versions.compileSdk
 
     defaultConfig {
-        applicationId "com.troll.trollbucket"
         minSdk versions.minSdk
         targetSdk versions.targetSdk
-        versionCode 1
-        versionName "1.0"
-
     }
 
     buildTypes {
@@ -31,15 +27,13 @@ android {
     lint {
         checkDependencies true
     }
-    namespace 'com.troll.trollbucket'
+    namespace 'com.troll.trollbucket.common'
 }
-
 dependencies {
 
-    api project(":common")
-    api project(":modules:mvi")
-    api project(":modules:kotlin")
-//    api project(":modules:compose")
-    api project(":wanAndroid:main")
+    api project(":component:eth")
+    api project(":component:bus")
+    api project(":component:fitter")
+    api 'com.blankj:utilcodex:1.31.0'
 
 }

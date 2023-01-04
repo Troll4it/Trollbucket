@@ -8,6 +8,7 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Trollbucket"
 include ':app'
+include ':common'
 
 // 模块
 include 'modules:algorithm'
@@ -31,6 +32,7 @@ include ':component:net'  // 网络
 include ':component:bus' // 跨组件通信
 include ':component:fitter' // 适配
 include ':component:bar'  // 沉浸式
+
 
 
 //玩Android
