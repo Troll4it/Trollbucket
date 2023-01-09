@@ -28,6 +28,7 @@
         <activity android:name=".kotlin.KotlinDemoActivity" />
         <activity android:name=".button.ButtonActivity" />
         <activity android:name=".timer.TimerActivity" />
+        <activity android:name=".view.CoordinateSystemActivity" />
 
         <service
             android:name=".service.WidgetService"

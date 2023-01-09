@@ -23,7 +23,7 @@ android {
     }
 
     kotlinOptions {
-        jvmTarget = '1.8'
+        jvmTarget = versions.jvmTarget
     }
     buildFeatures {
         viewBinding true
@@ -35,7 +35,6 @@ android {
 }
 
 dependencies {
-
     api project(":common")
     api project(":modules:mvi")
     api project(":modules:kotlin")

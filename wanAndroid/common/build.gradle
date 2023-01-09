@@ -31,8 +31,7 @@ android {
 }
 
 dependencies {
-    api project(':component:eth')
     api project(':component:net')
-    api project(':component:bus')
+    api project(":common")
     api 'com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.7'
 }
