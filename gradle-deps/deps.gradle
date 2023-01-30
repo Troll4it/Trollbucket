@@ -1,8 +1,7 @@
-print("打印 ${project.getParent().getName()}")
 apply from: "${rootProject.rootDir}/gradle-deps/base.gradle"
 project.ext {
     //是否允许module单独调试
-    isModuleDebug = false
+    isModuleDebug = true
     moduleName = "main"//单独调试module名  main    Demo
     //基础信息配置
     compileSdkVersion = versions.compileSdk
@@ -14,6 +13,7 @@ project.ext {
 
     //设置app配置
     setAppDefaultConfig = { extension ->
+
         //设置项目的android
         setAppAndroidConfig extension.android
         //设置项目的三方库依赖
@@ -25,6 +25,8 @@ project.ext {
         extension.compileSdkVersion project.ext.compileSdkVersion
         extension.buildToolsVersion project.ext.buildToolsVersion
         extension.defaultConfig {
+
+            println("包名 $project.ext.applicationId")
             applicationId project.ext.applicationId
             minSdkVersion project.ext.minSdkVersion
             targetSdkVersion project.ext.targetSdkVersion
@@ -75,6 +77,7 @@ project.ext {
         extension.compileSdkVersion project.ext.compileSdkVersion
         extension.buildToolsVersion project.ext.buildToolsVersion
         extension.defaultConfig {
+            applicationId "com.troll." + project.getName()
             minSdkVersion project.ext.minSdkVersion
             targetSdkVersion project.ext.targetSdkVersion
             versionCode project.ext.versionCode
@@ -96,17 +99,16 @@ project.ext {
         extension.kotlinOptions {
             jvmTarget = '1.8'
         }
-
         //动态改变清单文件资源指向
-//        extension.sourceSets {
-//            main {
-//                if (project.ext.isModuleDebug && project.ext.moduleName == project.name) {
-//                    manifest.srcFile 'src/main/manifest/AndroidManifest.xml'
-//                } else {
-//                    manifest.srcFile 'src/main/AndroidManifest.xml'
-//                }
-//            }
-//        }
+        extension.sourceSets {
+            main {
+                if (project.ext.isModuleDebug && project.ext.moduleName == project.name) {
+                    manifest.srcFile 'src/main/manifest/AndroidManifest.xml'
+                } else {
+                    manifest.srcFile 'src/main/AndroidManifest.xml'
+                }
+            }
+        }
         extension.buildFeatures.viewBinding = true
 
         extension.namespace "${project.getName()}"
