@@ -43,7 +43,8 @@ ext.deps = [
                 ],
                 "lifecycle"       : [
                         "runtime"  : "androidx.lifecycle:lifecycle-runtime-ktx:2.5.0",
-                        "viewmodel": "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.0"
+                        "viewmodel": "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.0",
+                        "process"  : "androidx.lifecycle:lifecycle-process:2.5.0"
                 ],
                 "navigation"      : [
                         "fragment": "androidx.navigation:navigation-fragment-ktx:2.3.5",

@@ -28,6 +28,7 @@
         <activity android:name=".button.ButtonActivity" />
         <activity android:name=".timer.TimerActivity" />
         <activity android:name=".view.CoordinateSystemActivity" />
+        <activity android:name=".jetpack.JetpackActivity" />
 
         <service
             android:name=".service.WidgetService"

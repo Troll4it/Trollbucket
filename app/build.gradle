@@ -40,5 +40,6 @@ dependencies {
     api project(":modules:kotlin")
 //    api project(":modules:compose")
     api project(":wanAndroid:main")
+    implementation 'androidx.lifecycle:lifecycle-process:2.4.1'
 
 }

@@ -47,7 +47,7 @@ dependencies {
     api deps.androidx.constraintlayout
     api deps.androidx.lifecycle.runtime
     api deps.androidx.lifecycle.viewmodel
-    api deps.androidx.lifecycle.viewmodel
+    api deps.androidx.lifecycle.process
     api deps.androidx.navigation.fragment
     api deps.androidx.navigation.ui
     api deps.kotlin.reflect
