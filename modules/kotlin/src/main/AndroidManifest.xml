@@ -29,9 +29,29 @@
         <activity android:name=".timer.TimerActivity" />
         <activity android:name=".view.CoordinateSystemActivity" />
         <activity android:name=".jetpack.JetpackActivity" />
+        <activity android:name=".view.CustomViewActivity" />
+        <activity android:name=".widget.WidgetActivity" />
 
         <service
             android:name=".service.WidgetService"
             android:enabled="true" />
+
+
+        <receiver
+            android:name=".widget.AdaptiveWidget"
+            android:label="Troll">
+            <intent-filter>
+                <action android:name="com.xmiles.widget.refresh" />
+                <action android:name="com.xmiles.widget.click" />
+                <action android:name="com.xmiles.widget.anim" />
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.starbaba.toolwidget.ACTION_CLICK" />
+                <action android:name="com.starbaba.toolwidget.ACTION_UPDATE_VIEW" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_step" />
+        </receiver>
     </application>
 </manifest>

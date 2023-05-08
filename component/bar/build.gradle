@@ -20,13 +20,6 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
-    sourceSets {
-        main {
-            java {
-                java.srcDirs += 'src/main/kotlin'
-            }
-        }
-    }
     namespace 'com.troll.bus'
 }
 

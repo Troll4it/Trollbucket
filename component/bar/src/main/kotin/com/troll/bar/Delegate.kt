@@ -1,1 +1,0 @@
-package com.troll.bar/** * author : TangPeng * date : 8/8/22 17:34 * description : */class Delegate :Runnable{    constructor(o:Any){    }    override fun run() {    }}
