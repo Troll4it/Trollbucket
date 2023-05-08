@@ -32,7 +32,7 @@ include ':component:net'  // 网络
 include ':component:bus' // 跨组件通信
 include ':component:fitter' // 适配
 include ':component:bar'  // 沉浸式
-
+include ':component:shortcut' // 快捷方式
 
 
 //玩Android
