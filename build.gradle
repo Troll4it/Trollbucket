@@ -2,10 +2,13 @@
 apply from: "gradle-deps/base.gradle"
 buildscript {
     repositories {
+        maven { url 'https://maven.aliyun.com/repository/google/' }
+        maven { url 'https://maven.aliyun.com/repository/public/' }
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin/' }
         mavenCentral()
-        maven { url 'https://jitpack.io' }
         gradlePluginPortal()
         google()
+        maven { url 'https://jitpack.io' }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:7.2.1'

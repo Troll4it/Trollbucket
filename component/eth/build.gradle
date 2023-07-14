@@ -35,6 +35,7 @@ dependencies {
     api deps.other.arouter
     api deps.other.multidex
     api deps.other.gson
+    api deps.other.leakcanary
     api(deps.other.glide) {
         exclude group: "com.android.support"
     }
