@@ -41,8 +41,8 @@ project.ext {
         }
 
         extension.compileOptions {
-            sourceCompatibility JavaVersion.VERSION_1_8
-            targetCompatibility JavaVersion.VERSION_1_8
+            sourceCompatibility JavaVersion.VERSION_11
+            targetCompatibility JavaVersion.VERSION_11
         }
         extension.kotlinOptions {
             jvmTarget = '1.8'
@@ -93,8 +93,8 @@ project.ext {
 
         //使用的jdk版本
         extension.compileOptions {
-            sourceCompatibility JavaVersion.VERSION_1_8
-            targetCompatibility JavaVersion.VERSION_1_8
+            sourceCompatibility JavaVersion.VERSION_11
+            targetCompatibility JavaVersion.VERSION_11
         }
         extension.kotlinOptions {
             jvmTarget = '1.8'
