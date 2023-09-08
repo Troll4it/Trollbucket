@@ -39,6 +39,7 @@
 
         <receiver
             android:name=".widget.AdaptiveWidget"
+            android:exported="true"
             android:label="Troll">
             <intent-filter>
                 <action android:name="com.xmiles.widget.refresh" />

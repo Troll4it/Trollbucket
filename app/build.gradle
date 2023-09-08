@@ -55,6 +55,7 @@ dependencies {
     api project(":modules:kotlin")
 //    api project(":modules:compose")
     api project(":wanAndroid:main")
+//    debugImplementation 'com.example.upload:demo:1.0-SNAPSHOT'
     implementation 'androidx.lifecycle:lifecycle-process:2.4.1'
 
 }
