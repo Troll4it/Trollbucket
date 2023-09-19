@@ -1,4 +1,4 @@
-ext.versions = [minSdk        : 23,
+ext.versions = [minSdk        : 26,
                 compileSdk    : 34,
                 targetSdk     : 33,
                 buildTools    : '30.0.3',

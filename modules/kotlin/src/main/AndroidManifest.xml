@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
     <application>
 
         <activity android:name=".viewpager.TestViewPager2Activity" />
@@ -31,6 +33,7 @@
         <activity android:name=".jetpack.JetpackActivity" />
         <activity android:name=".view.CustomViewActivity" />
         <activity android:name=".widget.WidgetActivity" />
+        <activity android:name=".workmanager.WorkManagerActivity" />
 
         <service
             android:name=".service.WidgetService"
@@ -54,5 +57,8 @@
                 android:name="android.appwidget.provider"
                 android:resource="@xml/widget_step" />
         </receiver>
+        <service
+            android:name=".workmanager.DemoJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
     </application>
 </manifest>
