@@ -35,6 +35,9 @@ android {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
+        profile {
+            initWith debug
+        }
     }
 
     kotlinOptions {
@@ -57,5 +60,8 @@ dependencies {
     api project(":wanAndroid:main")
 //    debugImplementation 'com.example.upload:demo:1.0-SNAPSHOT'
     implementation 'androidx.lifecycle:lifecycle-process:2.4.1'
+    debugImplementation 'com.troll.wan.flutter_module:flutter_debug:1.0'
+    profileImplementation 'com.troll.wan.flutter_module:flutter_profile:1.0'
+    releaseImplementation 'com.troll.wan.flutter_module:flutter_release:1.0'
 
 }

@@ -35,6 +35,8 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
             adapter.submitList(it)
         }
         vm.liveActivity.observe(this) {
+//            val intent = FlutterActivity.createDefaultIntent(this)
+//            startActivity(this)
             startAc(it)
         }
 
