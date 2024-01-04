@@ -52,3 +52,4 @@ include ':wanAndroid:mine'
 include ':wanAndroid:web'
 include ':wanAndroid:login'
 
+include ':modules:leetcode'

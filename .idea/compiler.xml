@@ -15,6 +15,9 @@
       <module name="Trollbucket.modules.asm" target="17" />
       <module name="Trollbucket.modules.designmode" target="17" />
       <module name="Trollbucket.modules.kotlin" target="17" />
+      <module name="Trollbucket.modules.leetcode" target="1.7" />
+      <module name="Trollbucket.modules.leetcode.main" target="1.7" />
+      <module name="Trollbucket.modules.leetcode.test" target="1.7" />
       <module name="Trollbucket.modules.mvi" target="17" />
       <module name="Trollbucket.modules.rich" target="17" />
       <module name="Trollbucket.wanAndroid.common" target="17" />
