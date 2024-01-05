@@ -1,4 +1,4 @@
-package com.troll.leetcode.n704;
+package com.troll.leetcode.二分法.n704;
 
 public class 二分查找 {
     public static int search(int[] nums, int target) {
@@ -16,10 +16,6 @@ public class 二分查找 {
             }
         }
         return -1;
-    }
-
-    public static void main(String[] args) {
-        System.out.println("二分查找 = " + search(new int[]{1, 2, 3, 4, 5}, 2));
     }
 
 }
