@@ -34,6 +34,5 @@ dependencies {
     api project(":component:eth")
     api project(":component:bus")
     api project(":component:fitter")
-    api deps.other.blankj
 
 }

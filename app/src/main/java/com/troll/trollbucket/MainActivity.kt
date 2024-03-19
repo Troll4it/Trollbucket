@@ -35,8 +35,6 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
             adapter.submitList(it)
         }
         vm.liveActivity.observe(this) {
-//            val intent = FlutterActivity.createDefaultIntent(this)
-//            startActivity(this)
             startAc(it)
         }
 
@@ -46,5 +44,6 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
         bd.mainRv.layoutManager = GridLayoutManager(this, 2)
         bd.mainRv.adapter = adapter
     }
+
 }
 
