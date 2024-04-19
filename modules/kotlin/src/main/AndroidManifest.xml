@@ -35,6 +35,7 @@
         <activity android:name=".widget.WidgetActivity" />
         <activity android:name=".workmanager.WorkManagerActivity" />
         <activity android:name=".agency.AgencyActivity" />
+        <activity android:name=".UpdateUiActivity" />
 
         <service
             android:name=".service.WidgetService"
