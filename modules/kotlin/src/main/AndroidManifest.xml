@@ -28,7 +28,10 @@
         <activity android:name=".service.ServiceActivity" />
         <activity android:name=".kotlin.KotlinDemoActivity" />
         <activity android:name=".button.ButtonActivity" />
-        <activity android:name=".timer.TimerActivity" />
+        <activity
+            android:name=".timer.TimerActivity"
+            android:launchMode="singleInstancePerTask"
+            android:parentActivityName="troll.kotlin.button.ButtonActivity" />
         <activity android:name=".view.CoordinateSystemActivity" />
         <activity android:name=".jetpack.JetpackActivity" />
         <activity android:name=".view.CustomViewActivity" />
@@ -36,6 +39,7 @@
         <activity android:name=".workmanager.WorkManagerActivity" />
         <activity android:name=".agency.AgencyActivity" />
         <activity android:name=".UpdateUiActivity" />
+        <activity android:name=".flow.FlowActivity" />
 
         <service
             android:name=".service.WidgetService"
@@ -45,6 +49,7 @@
         <receiver
             android:name=".widget.AdaptiveWidget"
             android:exported="true"
+            android:process=":widgetProvider"
             android:label="Troll">
             <intent-filter>
                 <action android:name="com.xmiles.widget.refresh" />
@@ -52,9 +57,15 @@
                 <action android:name="com.xmiles.widget.anim" />
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
                 <action android:name="com.starbaba.toolwidget.ACTION_CLICK" />
+                <action android:name="miui.appwidget.action.APPWIDGET_UPDATE" />
                 <action android:name="com.starbaba.toolwidget.ACTION_UPDATE_VIEW" />
+
+
             </intent-filter>
 
+            <meta-data
+                android:name="miuiWidget"
+                android:value="true" />
             <meta-data
                 android:name="android.appwidget.provider"
                 android:resource="@xml/widget_step" />

@@ -1,1 +1,1 @@
-package troll.btc.util.time.timer/** * author : TangPeng * date : 11/22/22 14:31 * description : */interface CountDownTimerImpl {    fun start()    fun reStart()    fun cancel()    fun stop()    fun finish()}
+package troll.btc.util.time.timer/** * author : TangPeng * date : 11/22/22 14:31 * description : */interface CountDownTimerImpl {    fun start()    fun reStart()    fun cancel()    fun stop()    fun finish()}

@@ -16,5 +16,4 @@ public class ListNode {
         this.next = next;
     }
 
-   l
 }
