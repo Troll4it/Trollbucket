@@ -2,6 +2,8 @@ package troll.kotlin.flow
 
 import android.view.LayoutInflater
 import androidx.activity.viewModels
+import androidx.lifecycle.lifecycleScope
+import kotlinx.coroutines.launch
 import troll.btc.extensions.observe
 import troll.btc.extensions.onClick
 import troll.btc.log.TLog
@@ -17,11 +19,14 @@ class FlowActivity : BaseActivity<ActivityFlowBinding>() {
     override fun flowData() {
 
         bd.kotlinFlowFlow.onClick {
-            vm.getData().observe(this) {
-                TLog.i("获取到数据${lifecycle.currentState}", "Flow")
-            }
+            vm.data()
         }
 
+        lifecycleScope.launch {
+            vm.responseFlow.collect {
+                TLog.i(it.value, "FlowActivity")
+            }
+        }
 
     }
 

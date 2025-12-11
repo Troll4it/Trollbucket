@@ -1,32 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <bytecodeTargetLevel target="11">
-      <module name="Trollbucket.app" target="17" />
-      <module name="Trollbucket.common" target="17" />
-      <module name="Trollbucket.component.bar" target="17" />
-      <module name="Trollbucket.component.btc" target="17" />
-      <module name="Trollbucket.component.bus" target="17" />
-      <module name="Trollbucket.component.eth" target="17" />
-      <module name="Trollbucket.component.fitter" target="17" />
-      <module name="Trollbucket.component.net" target="17" />
-      <module name="Trollbucket.component.shortcut" target="17" />
-      <module name="Trollbucket.modules.algorithm" target="17" />
-      <module name="Trollbucket.modules.asm" target="17" />
-      <module name="Trollbucket.modules.designmode" target="17" />
-      <module name="Trollbucket.modules.kotlin" target="17" />
-      <module name="Trollbucket.modules.leetcode" target="1.7" />
-      <module name="Trollbucket.modules.leetcode.main" target="1.7" />
-      <module name="Trollbucket.modules.leetcode.test" target="1.7" />
-      <module name="Trollbucket.modules.mvi" target="17" />
-      <module name="Trollbucket.modules.rich" target="17" />
-      <module name="Trollbucket.wanAndroid.common" target="17" />
-      <module name="Trollbucket.wanAndroid.home" target="17" />
-      <module name="Trollbucket.wanAndroid.login" target="17" />
-      <module name="Trollbucket.wanAndroid.main" target="17" />
-      <module name="Trollbucket.wanAndroid.mine" target="17" />
-      <module name="Trollbucket.wanAndroid.project" target="17" />
-      <module name="Trollbucket.wanAndroid.web" target="17" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.7" />
   </component>
 </project>
